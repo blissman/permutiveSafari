@@ -1,8 +1,8 @@
-const greet = require('../src/checkId.js');
+const checkId = require('../src/checkId.js');
 
-describe('greeter', () => {
+describe('checkId', () => {
 
-    it('should say Hello to the World', () => {
-        expect(greet('World')).toEqual('Hello, World!');
+    it('doesn\'t have any tests written yet', () => {
+        expect(true).toEqual(true);
     });
 });
